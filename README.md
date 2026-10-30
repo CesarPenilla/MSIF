@@ -20,10 +20,9 @@ Para garantizar la ejecución exitosa del código sin depender de configuracione
 El flujo de trabajo ha sido diseñado para ser completamente autónomo y no requiere la descarga de archivos locales a su computadora.
 
 1.  **Abrir el Entorno de Ejecución:**
-    Haga clic en el siguiente enlace para desplegar el cuaderno de código directamente en la plataforma en la nube:
+    Haga clic en el siguiente botón digital para desplegar el cuaderno de código directamente en la plataforma en la nube:
     
-    [![Open In Colab](https://google.com)](https://google.com)
-    https://google.com/CesarPenilla/MSIF/blob/main/TesisMSIF.ipynb
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://google.com)
 
 3.  **Ejecución Completa del Algoritmo:**
     Una vez abierto el cuaderno en Google Colab, diríjase al menú superior y seleccione:
