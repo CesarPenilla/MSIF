@@ -11,7 +11,7 @@ Este repositorio contiene el código fuente completo, los flujos metodológicos 
 
 Para garantizar la ejecución exitosa del código sin depender de configuraciones locales o del autor, los revisores deben cumplir con un único requisito:
 
-*   **Cuenta activa en Google Earth Engine:** Debe contar con una cuenta de Google con permisos activos para usar Earth Engine. Si no dispone de una, puede dar de alta su cuenta institucional o personal de forma gratuita e inmediata en [://google.com](https://://google.com/).
+*   **Cuenta activa en Google Earth Engine:** Debe contar con una cuenta de Google con permisos activos para usar Earth Engine. Si no dispone de una, puede dar de alta su cuenta institucional o personal de forma gratuita e inmediata en [earthengine.google.com](https://google.com).
 
 ---
 
@@ -20,21 +20,24 @@ Para garantizar la ejecución exitosa del código sin depender de configuracione
 El flujo de trabajo ha sido diseñado para ser completamente autónomo y no requiere la descarga de archivos locales a su computadora.
 
 1.  **Abrir el Entorno de Ejecución:**
-    Haga clic en el siguiente botón digital para desplegar el cuaderno de código directamente en la plataforma en la nube:
+    Haga clic en el siguiente botón digital oficial para desplegar el cuaderno de código directamente en la plataforma en la nube:
     
-    <a href="https://google.com" target="_blank">
-        <img src="https://google.com" alt="Open In Colab" width="150" height="30"/>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://google.com" alt="Open In Colab" width="160"/>
     </a>
 
-3.  **Ejecución Completa del Algoritmo:**
+    Si el botón digital no responde en su navegador debido a políticas de seguridad, copie y pegue la siguiente dirección URL directa en una nueva pestaña limpia:
+    https://google.com
+
+2.  **Ejecución Completa del Algoritmo:**
     Una vez abierto el cuaderno en Google Colab, diríjase al menú superior y seleccione:
     **Entorno de ejecución** > **Ejecutar todas** (o presione `Ctrl + F9`).
 
-4.  **Flujo de Autenticación de Terceros (OAuth):**
+3.  **Flujo de Autenticación de Terceros (OAuth):**
     Cuando el algoritmo ejecute la función `inicializar_entorno_gee()`, Google Colab desplegará una interfaz nativa pidiendo autorización. 
-    *   Haga clic en el enlace de inicio de sesión provisto.
+    *   Haga clic en el enlace de inicio de sesión provisto en la celda.
     *   Seleccione su cuenta de Google habilitada en GEE.
-    *   Copie el token de acceso generado y péguelo en la casilla de Colab (o acepte la ventana emergente según su versión de navegador).
+    *   Copie el token de acceso generado y péguelo en la casilla de Colab (o acepte la ventana de diálogo según la versión de su navegador).
 
 ---
 
@@ -64,5 +67,5 @@ El código fuente incluye adaptaciones estructurales específicas para procesos 
 
 ```text
 ├── TesisMSIF.ipynb        # Código fuente estructurado y documentado en Python.
-├── README.md                    # Este archivo de instrucciones de réplica.
+├── README.md              # Este archivo de instrucciones de réplica.
 ```
