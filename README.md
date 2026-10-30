@@ -22,7 +22,9 @@ El flujo de trabajo ha sido diseñado para ser completamente autónomo y no requ
 1.  **Abrir el Entorno de Ejecución:**
     Haga clic en el siguiente botón digital para desplegar el cuaderno de código directamente en la plataforma en la nube:
     
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://google.com)
+    <a href="https://google.com" target="_blank">
+        <img src="https://google.com" alt="Open In Colab" width="150" height="30"/>
+    </a>
 
 3.  **Ejecución Completa del Algoritmo:**
     Una vez abierto el cuaderno en Google Colab, diríjase al menú superior y seleccione:
