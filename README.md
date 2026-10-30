@@ -23,7 +23,7 @@ El flujo de trabajo ha sido diseñado para ser completamente autónomo y no requ
     Haga clic en el siguiente enlace para desplegar el cuaderno de código directamente en la plataforma en la nube:
     
     [![Open In Colab](https://google.com)](https://google.com)
-    https://google.comCesarPenilla/MSIF/blob/main/TesisMSIF.ipynb
+    https://google.com/CesarPenilla/MSIF/blob/main/TesisMSIF.ipynb
 
 3.  **Ejecución Completa del Algoritmo:**
     Una vez abierto el cuaderno en Google Colab, diríjase al menú superior y seleccione:
